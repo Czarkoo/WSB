@@ -1,15 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Zadania
+namespace ppk_main
 {
-    class Program
+    class MainClass
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Console.WriteLine("liczba  nr 1");
+            int liczba_1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("liczba nr 2");
+            int liczba_2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(liczba_1 * liczba_2);
         }
     }
 }
