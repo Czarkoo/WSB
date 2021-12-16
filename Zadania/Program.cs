@@ -1,15 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Zadania
+namespace ppk_main
 {
-    class Program
+    class MainClass
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            int silnia = 1;
+            for (int i = 1; i <= 9; i++)
+            {
+
+                silnia *= i; 
+                Console.WriteLine(silnia);
+
+            }
         }
     }
 }
