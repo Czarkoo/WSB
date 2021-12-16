@@ -10,6 +10,7 @@ namespace Zadania
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("HelloWorld");
         }
     }
 }
